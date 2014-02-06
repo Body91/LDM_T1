@@ -1,0 +1,85 @@
+<html>
+<!--Trabajo de Marquez Cuerpo -->
+<head>
+	<title> Tarea 1 Lenguajes de Marcas </title>
+</head>
+<body>
+	<h2> Tarea 1 Lenguajes de Marcas </h2>
+<hr>
+	<h3>  ¿Que son los lenguajes de marcas? </h3>
+<p>
+Las personas nos comunicamos entre si a traves de un lenguaje ya sea escrito como hablado, en el que usamos ciertos gestos, señales, entonacion para que sea entendible nuestro mensaje para el resto de personas. <br>
+Un lenguaje de marca es esto mismo pero en el hambito de la informatica, como reconoce el ordenador nuestro mensaje para que aparezca con el tamaño deseado, en el lugar que queremos, para este fin se crearon los lenguajes de marcas, que utilizan una simbologia especifica para poder darle la forma que queremos.
+</p>
+
+	<h3> Clasificación </h3>
+<p>
+Segun las marcas que utilizan podemos ordenarlos en tres tipos:
+
+<ol>
+<li> <b> De presentacion: </b> </li>
+	Indican el formato del texto o tipografía, sin especificar su estructura, por ejemplo aumentar el tamaño de la fuente, centrar o cambiar a negrita.
+	Esta categoria incluye los lenguajes de procedimiento que agrupan varias marcas de presentacion en macros.
+El software que representa el documento debe interpretar el codigo en el mismo orden en que aparece.
+Los procesadores de texto y en general las aplicaciones de edicion profesional utilizan este tipo de marcado.
+Ejemplos: - nroll, troll, RTF   o    - TeX, Docbook (derivados de SGML)
+<li> <b> Descriptivo, estructural o semántico: </b> </li> 
+
+	Indican las diferentes partes en las que se estructura el documento, pero sin especificar cómo deben representarse ni en qué orden.
+XML es un metalenguaje expresamente diseñado para generar marcado descriptivo y los lenguajes derivados de XML con este propósito son: EBML, RDF, XFML, OWL y XTM.
+Aunque XML almacena información de todo tipo, los demas tienen contenido especifico.
+Estos lenguajes crean documentos con estructura en árbol que almacenan información, por eso son base de datos, sin embargo no san tablas ni respetan las reglas de integrdad propias de las BD Relacionables, por ello se les llama bases de datos semiestructuradas.
+Ejemplos: - ASN.1, YAML    o    -EBML, EDF, XFML, XTM ( derivadas de XML)
+<li> <b> Híbrido: </b> </li>
+	Lenguajes que contienen marcas de los dos tipos anteriores indistintamente.
+ Ejemplos: - HTML (derivado de SGML)   o    - XHTML, WML (derivados de XML)
+</ol></p>
+
+	<h3> Caracteristicas principales de los lenguajes de marcas </h3>
+<p><ul>
+<li> <b> Texto plano:</b> </li> 
+Los archivos de texto plano son aquellos que están compuestos únicamente por caractees de texto, a diferencia de los archivos binarios que pueden contener imágenes, sonido, archivos comprimidos...
+Estos caracteres se pueden codificar con distintos códigos dependiendo del idioma o el alfabeto que se necesite: ASCII, ISO-8859, UTF-8.
+Una de las principales ventajas de los archivos de texto plano es que pueden ser interpretados directamente por un simple editor de texto, a diferencia de los binarios, que necesitan software expecifico.
+Esta característica hace que los documentos sean independientes del sistema operativo o programa con el que fueron creados, esto facilita el intercambio de informacion en internet.
+<li> <b> Compacidad:</b> </li> 
+Las instrucciones de marcado se mezclan con el propio contenido, por ejemplo,&lt;h4&gt;Contenido&lt;/h4&gt; ( h4 hace referencia al tamaño del texto).
+El código entre corchetes como &lt;h4&gt;, son instrucciones de marcado.
+El texto comprendido entre las marcas es el propio contenido del documento.
+<li> <b> Independencia del dispositivo final: </b> </li> 
+El mismo documento puede ser interprerado de diferentes foras dependiendo del dispositivo final, así tendremos diferentes resultados si se usa un dispositivo movil, un ordenador o un periferico de salida (impresora).
+<li> <b> Especialización:</b> </li>  
+Inicialmente los lenguajes de marcas se idero para visualizar documentos de texto, pero progresivamente se han empezado a utilizar en muchas otras áreas como gráficos vectoriales, sindicación de contenidos, notación cientifica....
+<li> <b> Flexibilidad:</b> </li>  
+Los lenguajes de marcas se pueden combinar en el mismo archivo con otros lenguajes, como HTML con PHP y JavaScript. Incluso hay etiquetas especificas para ello como es &lt;script&gt;.
+XML ha permitido que se puedan combinar varios lenguajes de marcas diferentes en un mismo archivo, como en el caso de XHTML con MathML y SVG.
+</ul></p>
+
+	<h3> Herramientas de los lenguajes de marcas </h3>
+<p> 
+Para ayudarle a ahorrar tiempo con el diseño base, existen todo tipo de herramientas que ayudan a ahorrar tiempo con funciones específicas.
+<ul>
+<li> <b> Grid designer: </b> </li> Herramienta para diseño de grid (rejilla) en línea y de manera rápida. Hace que sea fácil definir rápidamente la disposición del ancho, el número de columnas, márgenes, etc. para establecer la tipografía y el resto de los elementos.
+<li> <b> Kotatsu: </b> </li>Sencillo generador de tablas HTML con unas pocas pulsaciones de ratón tenemos el código de la tabla con sus filas y columnas.
+<li> <b> CSS Redundancy Checker: </b> </li>  Encuentra los selectores CSS que no son utilizados por los archivos HTML y que pueden ser redundantes. Funciona muy bien cuando el archivo CSS se complica y hay que eliminar cualquier selector.
+<li> <b> CSS Menu Maker: </b> </li> Crear y personalizar tus menús CSS, horizontal o vertical, en línea de forma gratuita.
+<li> <b> CSS Color Editor: </b> </li> Reemplazar fácilmente los colores de un archivo CSS. Todo lo que se necesita hacer es cargar un archivo para reemplazar los colores y generar el nuevo archivo que luego se puede descargar.
+<li> <b> CSS Super Scrub: </b> </li> Reduce el tamaño de los archivos CSS con solo unos pocos clics del ratón.
+<li> <b> PX to EM: </b> </li> Convierte los tamaños de las letras en píxeles a su equivalente en em y al revés.
+<li> <b> Deploy: </b> </li> Despliega rápidamente un marco de proyecto web con XHTML y CSS válidos, sólo es cuestión de segundos.
+<li> <b> CSS Text Wrapper: </b> </li> De una manera muy sencilla logramos que el texto HTML adquiera una forma que no sean sólo un rectángulo. Puede hacer que el texto fluya alrededor de unas curvas, en zig-zags, o lo que te se ocurra.
+<li> <b> PSDtoCSS online: </b> </li> Convierte tus archivos PSD en un diseño XHTML-CSS. Sólo una rápida carga es lo que se necesita, entonces puedes descargar su disposición en un archivo zip.
+</ul></p>
+
+	<h3> Conclusión </h3>
+<p>
+Los lenguajes de marcado, tienen una gran cantidad de software y herramientas para poder trabajar con ellos. Desde un simple bloc de notas hasta los programas más desarrollados que permiten al mismo tiempo que se escribe el código ver el resultado final.
+</p>
+
+	<h3> Bibliografía </h3>
+<p><ul>
+<li> Libro: <u>Lenguajes de marcas y sistemas de gestión de informacion </u> Editorial:  <i> garceta </i> </li>
+<li> <a href="http://mural.uv.es/egara3/inf2p2/secciones.html#herr"> Herramientas LMD </a> </li>
+</ul></p>
+</body>
+</html>
